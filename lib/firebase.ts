@@ -4,8 +4,9 @@ import { getDatabase } from "firebase/database";
 import { doc, getFirestore, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDx7jRudItQzl435lTkrETc9tGCiLtKmLM",
+   apiKey: "AIzaSyDx7jRudItQzl435lTkrETc9tGCiLtKmLM",
   authDomain: "extrazm.firebaseapp.com",
+  databaseURL: "https://extrazm-default-rtdb.firebaseio.com",
   projectId: "extrazm",
   storageBucket: "extrazm.firebasestorage.app",
   messagingSenderId: "560730624706",
